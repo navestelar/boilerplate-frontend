@@ -75,4 +75,34 @@ export default function ExampleComponentUi({ text }) {
 };
 ```
 
+Aqui está um código em Markdown para baixar as extensões do Visual Studio Code que você listou:
+
+# Extensões Recomendadas para o Visual Studio Code
+
+## [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+## [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+## [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+## [Omni Theme](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
+## [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
+## [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=zhang-renyang.vscode-react)
+## [vscode-react-native](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
+## [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+## [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
+
+Copie e cole os links acima no navegador ou acesse diretamente o mercado de extensões do Visual Studio Code para baixar e instalar as extensões.
+
+## Recomendação de configuração do vscode para auxiliar o eslint autofix problems ao salvar
+```markdown
+1. No editor de configurações do Visual Studio Code (`Ctrl + ,` ou `Cmd + ,`), adicione o seguinte trecho de código JSON para ativar a correção automática do ESLint ao salvar:
+
+    ```json
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+    ```
+
+2. Salve as configurações.
+```
+
 Sinta-se à vontade para personalizar e expandir este boilerplate conforme necessário para atender às necessidades específicas do seu projeto.
