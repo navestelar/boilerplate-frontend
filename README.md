@@ -45,9 +45,9 @@ src/
 ## Arquivos Principais
 
 - **App.jsx:** Ponto de entrada da aplicação React.
-- **main.jsx:** Configuração principal do React e inicialização do aplicativo.
-- **router.tsx:** Configuração do roteador, se aplicável.
-- **index.css:** Arquivo de estilos globais.
+- **main.jsx:** Configuração principal do React e inicialização da aplicação.
+- **router.tsx:** Configuração das rotas, se aplicável.
+- **index.css:** Arquivo de estilos globais e importação do tailwind.
 
 ## Ferramentas e Configurações
 
@@ -60,12 +60,12 @@ src/
 
 ## Exemplo de Componente
 
-Dentro da pasta `components/ui`, você pode encontrar um exemplo de componente simples chamado `ExampleComponent.jsx`. Este componente pode ser utilizado como ponto de partida para a construção de componentes reutilizáveis.
+Dentro da pasta `components/ui`, você pode encontrar um exemplo de componente simples chamado `ExampleComponentUi.jsx`. Este componente pode ser utilizado como ponto de partida para a construção de componentes reutilizáveis.
 
 ```jsx
-// components/ui/ExampleComponent.jsx
+// components/ui/ExampleComponentUi.jsx
 
-export default function ExampleComponent({ text }) {
+export default function ExampleComponentUi({ text }) {
   return (
     <div className="bg-gray-200 p-4">
       <h2 className="text-xl font-bold mb-2">Example Component</h2>
