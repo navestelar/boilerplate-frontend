@@ -1,7 +1,7 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Route,Routes } from 'react-router-dom'
+
+import Error from './pages/error'
 import Main from './pages/home'
-import Error from './pages/Error'
 
 export function AppRoutes() {
   return (
